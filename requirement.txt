@@ -1,0 +1,16 @@
+clearml
+loguru
+Ninja
+numba
+opencv-contrib-python
+pandas
+scikit-image
+tabulate
+tensorboardX
+visvalingamwyatt==0.2.0
+iceream
+torch_scatter=2.1.2
+inplace_abn
+shapely==1.8.5
+nuscenes-devkit==1.1.9
+#####

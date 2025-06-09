@@ -1,7 +1,8 @@
 SuperMapNet for Long-Range and High-Accuracy Vectorized HD Map Construction
 
 
-**[Long version on Arxiv](https://arxiv.org/abs/2505.13856) **[Code]([https://github.com/zhouruqin/SuperMapNet])
+**[Long version on Arxiv](https://arxiv.org/abs/2505.13856) \
+**[Code]([https://github.com/zhouruqin/SuperMapNet])
 
 <div align="center"><img src="mAP_vs_FPS_nu.png" width="500"></div>
 

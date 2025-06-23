@@ -5,6 +5,8 @@ SuperMapNet for Long-Range and High-Accuracy Vectorized HD Map Construction
 **[Code on github](https://github.com/zhouruqin/SuperMapNet) 
 
 <div align="center"><img src="mAP_vs_FPS_nu.png" width="500"></div>
+<div align="center"><img src="NU.png" width="1000"></div>
+<div align="center"><img src="AV.png" width="1000"></div>
 
 We build the released version of **SuperMapNet** upon **[PivotNet](https://github.com/wenjie710/PivotNet) project. Therefore, this project supports the reproduction of **both** PivotNet and BeMapNet.
 

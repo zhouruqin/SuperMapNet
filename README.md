@@ -177,4 +177,4 @@ If you find PivotNet/BeMapNet/MachMap is useful in your research or applications
       url={https://arxiv.org/abs/2505.13856}, 
 }
 
-```
+```](https://github.com/zhouruqin/SuperMapNet/blob/main/README.md)

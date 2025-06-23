@@ -155,11 +155,11 @@ We build the released version of **SuperMapNet** upon **[PivotNet](https://githu
 
 <summary><b>Results on NuScenes DataSet</b></summary>
 <\br><br>
-<div align="center"><img src="NU_Tab.png" width="1000"></div>
+<div align="center"><img src="NU_tab.png" width="1000"></div>
   
 <summary><b>Results on Argoverse2 DataSet</b></summary>
-<div align="center"><img src="AV_Tab.png" width="1000"></div>
 <\br><br>  
+<div align="center"><img src="AV_tab.png" width="1000"></div>
 
 </details>
 

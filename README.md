@@ -127,26 +127,16 @@ We build the released version of **SuperMapNet** upon **[PivotNet](https://githu
 - **a. Model Training**
   ```shell
   CUDA_VISIBLE_DEVICES=2,3 bash run.sh train pivotnet_nuscenes_swint 30  # pivotnet, default: 8GPUs, bs=1, epochs=30
-  bash run.sh train bemapnet_nuscenes_swint 30  # bemapnet, default: 8GPUs, bs=1, epochs=30
-
-
   CUDA_VISIBLE_DEVICES=0,1,2,3 bash run.sh train pivotnet_Argoverse2_swint 30
-
   CUDA_VISIBLE_DEVICES=0,1,2,3 bash run.sh train-continue pivotnet_nuscenes_swint /zrq/PivotNet/outputs/pivotnet_nuscenes_swint/2024-11-25T10:12:06/dump_model/checkpoint_epoch_9.pth  # train continue
   ```
 
 - **b. Model Evaluation**
   ```shell
   CUDA_VISIBLE_DEVICES=0  bash run.sh test pivotnet_nuscenes_swint ${checkpoint-path}  # for pivotnet
-  CUDA_VISIBLE_DEVICES=0 bash run.sh test bemapnet_nuscenes_swint ${checkpoint-path}  # for bemapnet
   CUDA_VISIBLE_DEVICES=0  bash run.sh test pivotnet_Argoverse2_swint   ${checkpoint-path}  # for av2 dataset
   ```
 
-- **c. Reproduce with one command**
-  ```shell
-  bash run.sh reproduce pivotnet_nuscenes_swint  # for pivotnet
-  bash run.sh reproduce bemapnet_nuscenes_swint  # for bemapnet
-  ```
 </details>
 
 ## <div align="center">Models & Results</div>
@@ -165,7 +155,7 @@ We build the released version of **SuperMapNet** upon **[PivotNet](https://githu
 
 #
 ## Citation
-If you find PivotNet/BeMapNet/MachMap is useful in your research or applications, please consider giving us a star :star: and citing them by the following BibTeX entries:
+If you find SuperMapNet is useful in your research or applications, please consider giving us a star :star: and citing them by the following BibTeX entries:
 ```
 @misc{supermapnet,
       title={SuperMapNet for Long-Range and High-Accuracy Vectorized HD Map Construction}, 

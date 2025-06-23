@@ -153,15 +153,13 @@ We build the released version of **SuperMapNet** upon **[PivotNet](https://githu
 
 <details open>
 
-<summary><b>Results on NuScenes Val Set</b></summary>
+<summary><b>Results on NuScenes DataSet</b></summary>
 <\br><br>
-
-- **a. Easy-Setting --> AP-threshold is `0.5m, 1.0m, 1.5m` (same as [VectorMapNet](https://arxiv.org/abs/2206.08920.pdf) / [MapTR](https://arxiv.org/abs/2208.14437.pdf))**
-
-
-
-- **b. Hard-Setting --> AP-threshold is `0.2m, 0.5m, 1.0m` (Recommended as a more practical HD map evaluation protocol)**
+<div align="center"><img src="NU_Tab.png" width="1000"></div>
   
+<summary><b>Results on Argoverse2 DataSet</b></summary>
+<div align="center"><img src="AV_Tab.png" width="1000"></div>
+<\br><br>  
 
 </details>
 

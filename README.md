@@ -5,8 +5,18 @@ SuperMapNet for Long-Range and High-Accuracy Vectorized HD Map Construction
 **[Code on github](https://github.com/zhouruqin/SuperMapNet) 
 
 <div align="center"><img src="mAP_vs_FPS_nu.png" width="500"></div>
+Fig.1: Coomparisons with SOTAs on nuscenes dataset.
+
 <div align="center"><img src="NU.png" width="1000"></div>
+Fig.2: Visualization comparison between different modules of SuperMapNet on nuScenes dataset, where erroneous shapes are circled in blue and entanglement
+between elements are in yellow. Road boundaries are colored in green, while lane dividers and pedestrian crossings are in red and blue, respectively. Each contains
+six columns, (a) camera images; (b) LiDAR point clouds; (c) ground-truth; (d) baseline; (e) baseline only with SGC module; (f) baseline only with PEC module;
+and (g) baseline with both SGC and PEC modules.
+
 <div align="center"><img src="AV.png" width="1000"></div>
+Fig.3: Visualization of SuperMapNet on Argoverse2 dataset. Road boundaries are colored in green, while lane dividers and pedestrian crossings are in red and
+blue, respectively. Each contains four columns, (a) camera images; (b) LiDAR point clouds; (c) ground-truth; (d) results predicted by SuperMapNet with both SGC
+and PEC modules.
 
 We build the released version of **SuperMapNet** upon **[PivotNet](https://github.com/wenjie710/PivotNet) project. Therefore, this project supports the reproduction of **both** PivotNet and BeMapNet.
 
